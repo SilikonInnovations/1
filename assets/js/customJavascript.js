@@ -24,3 +24,6 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 });
+
+var contactform =  document.getElementById('contact_form');
+contactform.setAttribute('action', '//formspree.io/' + 'msomkarnath' + '@' + 'gmail' + '.' + 'com');

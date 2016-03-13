@@ -198,7 +198,7 @@
 	                <div class="col-md-12">
 	                    <div class="input-group">
 	                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-	                        <input name="email" placeholder="E-Mail Address" class="form-control" type="text">
+	                        <input  name="_replyto" placeholder="E-Mail Address" class="form-control" type="email">
 	                    </div>
 	                </div>
 	            </div>
@@ -209,7 +209,7 @@
 	                <div class="col-md-12">
 	                    <div class="input-group">
 	                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-	                        <input name="phone" placeholder="99XXXXXXXX" class="form-control" type="text">
+	                        <input name="phone" placeholder="99XXXXXXXX" class="form-control" type="number">
 	                    </div>
 	                </div>
 	            </div>
@@ -228,7 +228,10 @@
 	            <div class="form-group">
 
 	                <div class="col-md-12">
-	                    <button type="submit" class="btn btn-warning pull-right">Send <span class="glyphicon glyphicon-send"></span></button>
+										<input type="hidden" name="_subject" value="Website contact" />
+                    <input type="hidden" name="_next" value="https://www.silikoninnovations.org/" />
+                    <input type="text" name="_gotcha" style="display:none" />
+	                  <input type="submit" class="btn btn-danger pull-right"></input>
 	                </div>
 	            </div>
 
