@@ -232,8 +232,14 @@ img{
 
 
 
-
-
+/* About */
+#about .well{
+	background-color: transparent;
+	border: none;
+}
+#about img{
+	margin: auto;
+}
 
 
 
